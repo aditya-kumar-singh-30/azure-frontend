@@ -1,7 +1,7 @@
 'use client';
 import dynamic from 'next/dynamic';
 
-const VideoCall = dynamic(() => import('../components/videoCall/videoCall'), {
+const VideoCall = dynamic(() => import('../Components/VideoCall/videoCall'), {
   ssr: false,
 });
 
